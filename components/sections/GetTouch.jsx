@@ -26,7 +26,6 @@ const GetTouch = () => {
     },
   ]
 
-
   return (
     <section className="text-center px-4 py-16 bg-white">
       <h1 className="text-4xl font-bold mb-4 font-[heading-1]">Get In Touch !</h1>
