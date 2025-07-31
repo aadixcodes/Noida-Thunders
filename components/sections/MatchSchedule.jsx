@@ -52,7 +52,7 @@ const matches = [
 const MatchSchedule = () => {
   return (
     <section
-      className="relative w-full h-[70vh] bg-cover bg-center flex items-center justify-center"
+      className="relative w-full h-[60vh] bg-cover bg-center flex items-center justify-center"
       style={{ backgroundImage: `url('/assets/footer.webp')` }} // update path if needed
       id="schedule"
     >
@@ -62,7 +62,7 @@ const MatchSchedule = () => {
       {/* Content */}
       <div className="relative z-10 w-full max-w-5xl px-4 text-black">
         <div className="text-center mb-10">
-          <h2 className="text-4xl font-[heading-1]">Match Schedule</h2>
+          <h2 className="text-4xl md:text-5xl font-[heading-1]">Match Schedule</h2>
           <p className="text-gray-700 max-w-xl mx-auto mt-3 font-[para-1]">
             Dive into our upcoming matches and witness the thunder in action.
           </p>

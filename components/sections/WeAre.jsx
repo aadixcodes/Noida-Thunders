@@ -12,7 +12,7 @@ const WeAre = () => {
             We Are Noida Thunders
           </h1>
           <div className="w-24 sm:w-32 h-1 bg-[#fab604] mx-auto"></div>
-        </div>
+        </div>  
 
         {/* Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-1 items-center">

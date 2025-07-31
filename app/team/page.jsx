@@ -4,28 +4,12 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Partner from '@/components/sections/Partners';
 import DivImg from '@/components/common/DivImg';
+import { squads } from '@/public/assets/assests';
 
 
 export default function OurTeam() {
   const [activeTab, setActiveTab] = useState('team');
   const [isLoading, setIsLoading] = useState(true);
-
-  const teamImages = [
-    '/assets/Profile.webp',
-    '/assets/Profile.webp',
-    '/assets/Profile.webp',
-    '/assets/Profile.webp',
-    '/assets/Profile.webp',
-    '/assets/Profile.webp',
-    '/assets/Profile.webp',
-    '/assets/Profile.webp',
-    '/assets/Profile.webp',
-    '/assets/Profile.webp',
-    '/assets/Profile.webp',
-    '/assets/Profile.webp',
-    '/assets/Profile.webp',
-    '/assets/Profile.webp',
-  ];
 
   const staffData = [
     {
@@ -95,8 +79,9 @@ export default function OurTeam() {
               </div>
             ))
           ) : activeTab === 'team' ? (
+            
             // Actual team images
-            teamImages.map((image, index) => (
+            squads.map((image, index) => (
               <div
                 key={index}
                 className="w-[calc(50%-0.5rem)] sm:w-[calc(50%-1rem)] md:w-[calc(33.333%-1.25rem)] lg:w-[calc(25%-1.5rem)]"
@@ -107,7 +92,7 @@ export default function OurTeam() {
                       src={image}
                       alt={`Player ${index + 1}`}
                       fill
-                      className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                      className="object-cover object-center scale-125 transition-transform duration-500 group-hover:scale-105"
                       sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -118,28 +103,6 @@ export default function OurTeam() {
           ) : (
             // Actual staff images
             staffData.map((staff, index) => (
-              // <div
-              //   key={index}
-              //   className="w-[calc(50%-0.5rem)] sm:w-[calc(50%-1rem)] md:w-[calc(33.333%-1.25rem)] lg:w-[calc(25%-1.5rem)]"
-              // >
-              //   <div className="group overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-              //     <div className="relative aspect-[3/4]">
-              //       <Image
-              //         src={staff.image}
-              //         alt={staff.name}
-              //         fill
-              //         className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
-              //         sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
-              //       />
-              //       <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              //     </div>
-              //     <div className="absolute bottom-0 left-0 right-0 p-3 text-center">
-              //       <h3 className="font-bold text-[#1c0f0d] text-sm sm:text-base">{staff.name}</h3>
-              //       <p className="text-[#1c0f0d] text-xs sm:text-sm">{staff.title}</p>
-              //     </div>
-              //   </div>
-              // </div>
-
               <div
                 key={index}
                 className="w-[calc(50%-0.5rem)] sm:w-[calc(50%-1rem)] md:w-[calc(33.333%-1.25rem)] lg:w-[calc(25%-1.5rem)]"
@@ -159,6 +122,7 @@ export default function OurTeam() {
               </div>
             ))
           )}
+
         </div>
       </section>
 

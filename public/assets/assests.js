@@ -14,7 +14,23 @@ import lucknow from './uppvl logos/lucknow.png';
 import mathura from './uppvl logos/mathura.png'
 import moradabad from './uppvl logos/moradabad.png'
 import muzzaffarnagar from './uppvl logos/muzaffarnagar.png'
-import uppvl from './uppvl logos/uppvl.png';
+import uppvl from './uppvl logos/uppvl.png'
+import starplayer from './squad/starplayer.jpg'
+
+import one from './squad/one.jpg';
+import two from './squad/two.jpg';
+import three from './squad/three.jpg';
+import four from './squad/four.jpg';
+import five from './squad/five.jpg';
+import six from './squad/six.jpg';
+import seven from './squad/seven.jpg';
+import eight from './squad/eight.jpg';
+import nine from './squad/nine.jpg';
+import ten from './squad/ten.jpg';
+import eleven from './squad/eleven.jpg';
+import twelve from './squad/twelve.jpg';
+import thirteen from './squad/thirteen.jpg';
+import fourteen from './squad/fourteen.jpg';
 
 
 export const assets = {
@@ -35,7 +51,28 @@ export const assets = {
     moradabad,
     muzzaffarnagar,
     uppvl,
+    starplayer,
 }
+
+
+export const squads = [
+  one,
+  two,
+  three,
+  four,
+  five,
+  six,
+  seven,
+  eight,
+  nine,
+  ten,
+  eleven,
+  twelve,
+  thirteen,
+  fourteen,
+]
+
+
 
 import { RiTeamFill } from "react-icons/ri";
 import { MdOutlineSportsKabaddi } from "react-icons/md";

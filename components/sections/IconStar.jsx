@@ -7,7 +7,7 @@ const Iconstar = () => {
 
   return (
     <section className="py-16">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-12">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-12">
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl sm:text-5xl md:text-6xl text-[#1c0f0d] mb-4 font-[heading-1] opacity-95">
@@ -23,7 +23,7 @@ const Iconstar = () => {
             <div className="relative h-full min-h-[400px] lg:min-h-[300px] overflow-hidden shadow-xl rounded-lg">
                 <div className="absolute inset-0 bg-gray-200 animate-pulse"></div>
                 <Image
-                    src={assets.IconPlayer}
+                    src={assets.starplayer}
                     alt="Ayodhya Super Kings Team"
                     fill
                     className="object-cover object-center"

@@ -63,26 +63,26 @@ const Icons = [
       </div>
 
       {/* Contact Info */}
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col pl-0 md:pl-20 justify-center">
         <h3 className="text-xl font-semibold mb-4 text-white font-[Para-1]">Contact Us</h3>
         <ul className="text-gray-400 space-y-2">
-          <li className="text-center">
-            <div className="flex gap-3 items-center justify-center">
+          <li className="text-start">
+            <div className="flex gap-3 items-center justify-start">
               <IoLocationOutline className="text-xl" />
               <strong className="text-lg font-extralight">Address :</strong>
             </div>
             demo address - VSS01 Mamarama <br />
             Road Main City, Western
           </li>
-          <li className="text-center">
-            <div className="flex gap-3 items-center justify-center">
+          <li className="text-start">
+            <div className="flex gap-3 items-center justify-start">
               <IoCallOutline className="text-lg font-extralight" />
               <strong className="text-lg font-extralight">Phone:</strong>
             </div>
             +91-9123456789
           </li>
-          <li className="text-center">
-            <div className="flex gap-3 items-center justify-center">
+          <li className="text-start">
+            <div className="flex gap-3 items-center justify-start">
               <MdOutlineEmail className="text-xl font-extralight" />
               <strong className="text-lg font-extralight">Email:</strong>
             </div>
