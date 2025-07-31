@@ -35,10 +35,8 @@ const page = () => {
               />
               <div className="p-4 text-left">
                 <p className="text-sm text-gray-500 mb-1">
-                  <div className="flex items-center gap-4">
                     <IoCalendarNumberOutline />
                     {blog.date}
-                  </div>
                 </p>
                 <h3 className="font-semibold text-lg text-gray-900 mb-2">
                   {blog.title}

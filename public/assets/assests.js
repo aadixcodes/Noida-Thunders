@@ -7,6 +7,7 @@ import thundeLogo from './thundeLogo.png';
 import noida from './noida.png';
 import IconPlayer from './IconPlayer.jpg';
 import Profile from './Profile.webp';
+import ayodhya from './uppvl logos/ayodhya.png'
 
 export const assets = {
     Banner1,
@@ -17,6 +18,8 @@ export const assets = {
     thundeLogo,
     noida,
     IconPlayer,
+    Profile,
+    ayodhya,
 }
 
 import { RiTeamFill } from "react-icons/ri";

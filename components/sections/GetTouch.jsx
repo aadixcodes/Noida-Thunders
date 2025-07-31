@@ -28,7 +28,7 @@ const GetTouch = () => {
 
   return (
     <section className="text-center px-4 py-16 bg-white">
-      <h1 className="text-4xl font-bold mb-4 font-[heading-1]">Get In Touch !</h1>
+      <h1 className="text-4xl font-bold mb-4 font-[heading-1] text-black">Get In Touch !</h1>
       <p className="text-lg max-w-3xl mx-auto text-gray-700 mb-12 font-[para-1]">
         Got a thunderous idea or want to connect with Noida Thunders? Whether you're a fan, a brand, or a collaborator — we’re just a message away. Let’s make something big happen!
       </p>
@@ -43,7 +43,7 @@ const GetTouch = () => {
             <div className="bg-black p-4 rounded mb-4">
               <span className="text-white text-2xl">{item.icon}</span>
             </div>
-            <h3 className="text-xl font-semibold mb-2 font-[para-1]">{item.label}</h3>
+            <h3 className="text-xl font-semibold mb-2 font-[para-1] text-black">{item.label}</h3>
             <p className="text-gray-600 font-[para-1]">{item.content}</p>
           </div>
         ))}

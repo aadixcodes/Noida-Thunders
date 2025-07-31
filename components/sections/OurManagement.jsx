@@ -6,7 +6,7 @@ import { teamMembers } from "@/public/assets/assests";
 const OurManagement = () => {
   return (
 <section className="py-16 bg-white" id="management">
-  <div className="max-w-6xl mx-auto px-4 text-center">
+  <div className="max-w-4xl mx-auto px-4 text-center">
     {/* Heading */}
     <h2 className="text-3xl sm:text-4xl lg:text-5xl text-black font-[heading-1] mb-4">
       Our Managament
@@ -18,7 +18,7 @@ const OurManagement = () => {
       {teamMembers.map((member, index) => (
         <div key={index} className="bg-white rounded-lg shadow-sm overflow-hidden border border-gray-100">
           {/* Image Container */}
-          <div className="w-full h-48 bg-gray-100 flex items-center justify-center">
+          <div className="w-full h-52 bg-gray-100 flex items-center justify-center">
             {member.image ? (
               <img
                 src={member.image}

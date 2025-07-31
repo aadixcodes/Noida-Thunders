@@ -7,7 +7,7 @@ const Iconstar = () => {
 
   return (
     <section className="py-16">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-12">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-12">
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl sm:text-5xl md:text-6xl text-[#1c0f0d] mb-4 font-[heading-1] opacity-95">
@@ -46,7 +46,7 @@ const Iconstar = () => {
               calculated , and ready to command the court.
             </p>
 
-            <button className='bg-[#fab505] py-2 px-5 rounded-2xl'>View Our Squad</button>
+            <button className='bg-[#fab505] text-white py-2 px-5 rounded-2xl'>View Our Squad</button>
 
           </div>
 
