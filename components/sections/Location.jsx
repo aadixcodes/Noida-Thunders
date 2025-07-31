@@ -5,7 +5,9 @@ export default function Location() {
   return (
     <section className="w-full px-4 md:px-6 py-12 flex justify-center">
       <div className="w-full max-w-6xl flex flex-col md:flex-row justify-between items-start gap-8">
+
         {/* LEFT: Contact Form Card */}
+
         <div
           className="w-full md:w-1/2 rounded-xl relative bg-cover bg-center bg-no-repeat"
           style={{
@@ -67,7 +69,7 @@ export default function Location() {
         </div>
 
         {/* RIGHT: Map Card Container */}
-        <div className="w-full md:w-1/2 rounded-xl overflow-hidden border-2 border-blue-900 h-[590px]">
+        <div className="w-full md:w-1/2 rounded-xl overflow-hidden border-2 border-blue-900 h-[597px]">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112178.51076159457!2d77.31942423472935!3d28.522327774263665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1753900962452!5m2!1sen!2sin"
             className="w-full h-full"
@@ -81,3 +83,5 @@ export default function Location() {
     </section>
   );
 }
+
+

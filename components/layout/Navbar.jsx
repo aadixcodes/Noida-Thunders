@@ -7,7 +7,7 @@ import { MdEmail } from "react-icons/md";
 import { IoIosCall } from "react-icons/io";
 import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
 import Image from "next/image";
-import { assets } from "@/public/assets/assests"; // ⚠️ see note below
+import { assets } from "@/public/assets/assests";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -106,7 +106,7 @@ const Navbar = () => {
           {/* Mobile Menu Overlay */}
           {isOpen && (
             <div
-              className="fixed inset-0 bg-black/60 bg-opacity-50 z-40 lg:hidden"
+              className="fixed inset-0 bg-black/60 bg-opacity-50 z-40 lg:hidden cursor-pointer"
               onClick={() => setIsOpen(false)}
             />
           )}

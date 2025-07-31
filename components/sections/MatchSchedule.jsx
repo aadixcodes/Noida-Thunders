@@ -53,11 +53,11 @@ const MatchSchedule = () => {
   return (
     <section
       className="relative w-full h-[60vh] bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: `url('/assets/footer.webp')` }} // update path if needed
+      style={{ backgroundImage: `url('/assets/bg-banner-2.png')` }} // update path if needed
       id="schedule"
     >
       {/* White Shadow Overlay */}
-      <div className="absolute inset-0 bg-white/80 bg-opacity-80 z-0"></div>
+      <div className="absolute inset-0 bg-white/30 bg-opacity-80 z-0"></div>
 
       {/* Content */}
       <div className="relative z-10 w-full max-w-5xl px-4 text-black">
@@ -81,12 +81,12 @@ const MatchSchedule = () => {
                 <div className="flex flex-col items-center gap-6 p-6 rounded-xl font-[para-1] ">
                   <div className="flex items-center justify-between w-full gap-4">
                     <div className="text-center flex-1">
-                      <Image src={match.team1Logo} alt={match.team1} width={80} height={80} className="mx-auto" />
+                      <Image src={match.team1Logo} alt={match.team1} width={100} height={100} className="mx-auto" />
                       <p className=" mt-2  font-semibold">{match.team1}</p>
                     </div>
                     <div className="text-4xl font-bold text-center flex-shrink-0 w-[100px]">VS</div>
                     <div className="text-center flex-1">
-                      <Image src={match.team2Logo} alt={match.team2} width={80} height={80} className="mx-auto" />
+                      <Image src={match.team2Logo} alt={match.team2} width={100} height={100} className="mx-auto" />
                       <p className="mt-2 font-semibold">{match.team2}</p>
                     </div>
                   </div>
