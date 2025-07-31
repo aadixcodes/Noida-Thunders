@@ -49,7 +49,7 @@ export default function OurTeam() {
   }, [activeTab]);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white/0">
       {/* Page Banner - Unchanged */}
 
       <DivImg text={'Our Team'}/>

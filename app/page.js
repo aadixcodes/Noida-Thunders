@@ -1,6 +1,7 @@
 // import Footer from "@/components/layout/Footer";
 // import Navbar from "@/components/layout/Navbar";
 import IconStar from "@/components/sections/IconStar";
+import MatchSchedule from "@/components/sections/MatchSchedule";
 import Partners from "@/components/sections/Partners";
 import Slider from "@/components/sections/Slider";
 import ThunderGallery from "@/components/sections/ThunderGallery";
@@ -15,6 +16,7 @@ export default function Home() {
     <Welcome/>
     <WhatUs/>
     <IconStar/>
+    <MatchSchedule/>
     <ThunderGallery/>
     <Partners/>
     </>

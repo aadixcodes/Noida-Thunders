@@ -8,6 +8,14 @@ import noida from './noida.png';
 import IconPlayer from './IconPlayer.jpg';
 import Profile from './Profile.webp';
 import ayodhya from './uppvl logos/ayodhya.png'
+import gorakhpur from './uppvl logos/gorakhpur.png';
+import Kashi from './uppvl logos/Kashi.png';
+import lucknow from './uppvl logos/lucknow.png';
+import mathura from './uppvl logos/mathura.png'
+import moradabad from './uppvl logos/moradabad.png'
+import muzzaffarnagar from './uppvl logos/muzaffarnagar.png'
+import uppvl from './uppvl logos/uppvl.png';
+
 
 export const assets = {
     Banner1,
@@ -20,6 +28,13 @@ export const assets = {
     IconPlayer,
     Profile,
     ayodhya,
+    gorakhpur,
+    Kashi,
+    lucknow,
+    mathura,
+    moradabad,
+    muzzaffarnagar,
+    uppvl,
 }
 
 import { RiTeamFill } from "react-icons/ri";
