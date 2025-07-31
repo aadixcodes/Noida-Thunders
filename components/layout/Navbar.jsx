@@ -106,14 +106,14 @@ const Navbar = () => {
           {/* Mobile Menu Overlay */}
           {isOpen && (
             <div
-              className="fixed inset-0 bg-black/60 bg-opacity-50 z-40 lg:hidden cursor-pointer"
+              className="fixed inset-0 bg-black/40 bg-opacity-50 z-40 lg:hidden cursor-pointer"
               onClick={() => setIsOpen(false)}
             />
           )}
 
           {/* Mobile Menu Sidebar */}
           <div
-            className={`fixed top-0 right-0 h-full w-64 bg-[#141413] z-50 transform transition-transform duration-300 ease-in-out lg:hidden ${
+            className={`fixed top-0 right-0 h-full w-64 bg-[#141413]/50 backdrop-blur-2xl z-50 transform transition-transform duration-300 ease-in-out lg:hidden ${
               isOpen ? "translate-x-0" : "translate-x-full"
             }`}
           >
