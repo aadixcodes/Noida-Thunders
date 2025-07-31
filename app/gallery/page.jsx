@@ -2,15 +2,12 @@
 import DivImg from "@/components/common/DivImg";
 
 const galleryImages = [
-  "/assets/Banner1.jpg",
-  "/assets/Banner1.jpg",
-  "/assets/Banner1.jpg",
-  "/assets/Banner1.jpg",
-  "/assets/Banner1.jpg",
-  "/assets/Banner1.jpg",
-  "/assets/Banner1.jpg",
-  "/assets/Banner1.jpg",
-  "/assets/Banner1.jpg",
+  "/assets/welcome.jpg",
+  "/assets/G30.jpg",
+  "/assets/gallery.jpg",
+  "/assets/gallery2.jpg",
+  "/assets/gallery3.jpg",
+
 ];
 
 const page = () => {

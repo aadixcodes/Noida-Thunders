@@ -3,7 +3,7 @@ import Banner2 from './Banner2.jpg'
 import Banner3 from './Banner3.jpg'
 import welcome from './welcome.jpg'
 import G30 from './G30.jpg'
-import thundeLogo from './thundeLogo.png';
+// import thundeLogo from './thundeLogo.png';
 import noida from './noida.png';
 import IconPlayer from './IconPlayer.jpg';
 import Profile from './Profile.webp';
@@ -39,7 +39,7 @@ export const assets = {
     Banner3,
     welcome,
     G30,
-    thundeLogo,
+    // thundeLogo,
     noida,
     IconPlayer,
     Profile,
