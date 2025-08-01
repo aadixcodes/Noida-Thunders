@@ -1,6 +1,7 @@
 'use client';
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { assets } from "@/public/assets/assests";
 
 const Iconstar = () => {
@@ -36,7 +37,7 @@ const Iconstar = () => {
 
           {/* Text Content */}
           <div className="space-y-6">
-            <p className="text-lg text-[#1c0f0d] leading-relaxed font-[Para-1]">
+            <p className="text-base sm:text-[1.05rem] md:text-lg lg:text-[1.1rem] text-black leading-relaxed font-[Para-1]">
               Vipul Kumar isn't just a player - he's the icon of Noida Thunders. As one of India's top Volleball
               setters, his precision , quick thinking , and clutch assists have made him the heartbeat of every
               team he's led. From Best Setter at the UP State Championship (2019) to MVP a the UPPVL Trials Games.
@@ -46,7 +47,11 @@ const Iconstar = () => {
               calculated , and ready to command the court.
             </p>
 
-            <button className='bg-[#fab505] text-white py-2 px-5 rounded-2xl'>View Our Squad</button>
+            <div className="flex justify-center lg:justify-start">
+              <Link href="/our-team" className='bg-[#fab505] text-black py-2 px-5 rounded-md inline-block hover:bg-[#e6a404] transition-colors'>
+                View Our Squad
+              </Link>
+            </div>
 
           </div>
 

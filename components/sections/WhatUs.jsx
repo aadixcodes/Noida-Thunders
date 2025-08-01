@@ -4,7 +4,7 @@ import React from 'react';
 
 const WhatUs = () => {
   return (
-<div className="w-full whatUs py-12 px-4 sm:px-6 md:px-10">
+<div className="w-full whatUs py-20 px-4 sm:px-6 md:px-10">
   {/* Heading Section */}
   <div className="text-center mb-10">
     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-[heading-1] mb-4">

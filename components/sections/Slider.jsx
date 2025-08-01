@@ -13,7 +13,7 @@ import { assets } from '@/public/assets/assests';
 
 const Slider = () => {
   return (
-    <div className="w-full h-52 -mt-24 -z-10 sm:h-[70vh] md:h-[85vh] lg:h-screen relative font-[heading-1]">
+    <div className="w-full h-70 sm:h-[70vh] md:h-[85vh] lg:h-screen relative font-[heading-1]">
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={30}

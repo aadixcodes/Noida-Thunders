@@ -20,11 +20,11 @@ const page = () => {
     <section
       className="relative py-16 bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: "url('/assets/Banner1.jpg')", // your uploaded background
+        backgroundImage: "url('/assets/bg-banner-2.png')", // your uploaded background
       }}
     >
       {/* White overlay */}
-      <div className="absolute inset-0 bg-white/85 bg-opacity-90 z-0" />
+      {/* <div className="absolute inset-0 bg-white/85 bg-opacity-90 z-0" /> */}
 
       <div className="relative z-10 max-w-7xl mx-auto px-4">
 

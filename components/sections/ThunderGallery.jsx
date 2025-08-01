@@ -1,6 +1,7 @@
 'use client';
 import { ThunGallery } from '@/public/assets/assests';
 import React from 'react';
+import Link from "next/link";
 
 const ThunderGallery = () => {
   return (
@@ -14,9 +15,7 @@ const ThunderGallery = () => {
           </h2>
           <div className="h-1 w-24 bg-[#fab505] mx-auto"></div>
           <p className="text-white text-sm sm:text-base md:text-sm font-[Para-1] max-w-2xl mx-auto">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quam 
-            illum quo dolore, minus alias labore nihil ipsa vitae beatae, excepturi 
-            enim aliquid odit laboriosam.
+          Meet the driving force of Noida Thunders — the visionaries, strategists, and leaders shaping our journey from behind the scenes.
           </p>
         </div>
 
@@ -37,9 +36,11 @@ const ThunderGallery = () => {
         </div>
 
         {/* Button */}
-        <button className="bg-[#fab505] text-black font-semibold py-2 px-6 rounded-2xl hover:bg-[#e0a904] transition duration-300">
-          View More
-        </button>
+        <div className="flex justify-center lg:justify-start">
+              <Link href="/gallery" className='bg-[#fab505] text-black py-2 px-5 rounded-md inline-block hover:bg-[#e6a404] transition-colors'>
+                View More
+              </Link>
+            </div>
       </div>
     </section>
   );

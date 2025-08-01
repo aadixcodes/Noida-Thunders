@@ -17,28 +17,56 @@ const Navbar = () => {
     <>
       {/* Top Section */}
       <div className="w-full bg-[#fab505] hidden md:flex flex-row lg:flex-row items-center justify-between px-6 lg:px-36 py-4 gap-4 lg:gap-0">
-        <div className="flex flex-col text-white sm:flex-row gap-4 sm:gap-7 text-sm">
-          <div className="flex items-center gap-2">
+        <div className="flex  flex-col text-white sm:flex-row gap-4 sm:gap-7 text-sm">
+          <div className="flex text-black items-center gap-2">
             <MdEmail />
             <h3>noidathunders@gmail.com</h3>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex text-black items-center gap-2">
             <IoIosCall />
             <h3>+91 9812595958</h3>
           </div>
         </div>
 
-        <div className="flex gap-4 text-lg text-white">
-          <FaInstagram />
-          <FaFacebook />
-          <BsTwitterX />
-          <FaYoutube />
+        <div className="flex gap-4 text-black text-lg">
+          <a 
+            href="https://www.instagram.com/noidathunders" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hover:text-white transition-colors cursor-pointer"
+          >
+            <FaInstagram />
+          </a>
+          <a 
+            href="https://www.facebook.com/noidathunders" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hover:text-white transition-colors cursor-pointer"
+          >
+            <FaFacebook />
+          </a>
+          <a 
+            href="https://twitter.com/noidathunders" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hover:text-white transition-colors cursor-pointer"
+          >
+            <BsTwitterX />
+          </a>
+          <a 
+            href="https://www.youtube.com/@noidathunders" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hover:text-white transition-colors cursor-pointer"
+          >
+            <FaYoutube />
+          </a>
         </div>
       </div>
 
       <nav className="w-full font-[Para-1] ">
         {/* Bottom Section */}
-        <div className="text-white lg:px-36 px-6 bg-[#141413] md:bg-[#141413]/50  z-50 border-b-[2px] border-white border-dotted">
+        <div className="text-white lg:px-36 px-6 bg-[#141413] border-b-[2px] border-white border-dotted">
           <div className="flex justify-between items-center">
             {/* Logo */}
             <div className="h-16 w-16 relative shrink-0">
@@ -57,7 +85,7 @@ const Navbar = () => {
                 Home
               </Link>
               <Link
-                href={"/about"}
+                href={"/about-us"}
                 className="cursor-pointer hover:text-[#fab505]"
               >
                 About
@@ -69,7 +97,7 @@ const Navbar = () => {
                 Fixtures
               </Link>
               <Link
-                href={"/team"}
+                href={"/our-team"}
                 className="cursor-pointer hover:text-[#fab505]"
               >
                 Team
@@ -106,74 +134,75 @@ const Navbar = () => {
           {/* Mobile Menu Overlay */}
           {isOpen && (
             <div
-              className="fixed inset-0 bg-black/40 bg-opacity-50 z-40 lg:hidden cursor-pointer"
+              className="fixed inset-0 bg-black/70 bg-opacity-50 z-40 lg:hidden cursor-pointer"
               onClick={() => setIsOpen(false)}
             />
           )}
 
-          {/* Mobile Menu Sidebar */}
+          {/* Mobile Menu Sidebar - Updated styling */}
           <div
-            className={`fixed top-0 right-0 h-full w-64 bg-[#141413]/50 backdrop-blur-2xl z-50 transform transition-transform duration-300 ease-in-out lg:hidden ${
-              isOpen ? "translate-x-0" : "translate-x-full"
+            className={`fixed inset-0 h-full w-full bg-[#141413]/90 backdrop-blur-md z-50 flex flex-col items-center justify-center transition-all duration-300 ease-in-out lg:hidden ${
+              isOpen ? "opacity-100 visible" : "opacity-0 invisible"
             }`}
           >
-            <div className="p-5 flex flex-col gap-6 mt-16">
+            <button
+              className="absolute top-6 right-6 text-3xl text-white"
+              onClick={() => setIsOpen(false)}
+            >
+              <HiOutlineX />
+            </button>
+            
+            <div className="flex flex-col items-center justify-center gap-8 w-full px-4">
               <Link
                 href={"/"}
-                className="cursor-pointer hover:text-[#fab505]"
+                className="text-2xl font-medium text-white hover:text-[#fab505] transition-colors w-full text-center py-2"
                 onClick={() => setIsOpen(false)}
               >
                 Home
               </Link>
               <Link
-                href={"/about"}
-                className="cursor-pointer hover:text-[#fab505]"
+                href={"/about-us"}
+                className="text-2xl font-medium text-white hover:text-[#fab505] transition-colors w-full text-center py-2"
                 onClick={() => setIsOpen(false)}
               >
                 About
               </Link>
               <Link
                 href={"/fixtures"}
-                className="cursor-pointer hover:text-[#fab505]"
+                className="text-2xl font-medium text-white hover:text-[#fab505] transition-colors w-full text-center py-2"
                 onClick={() => setIsOpen(false)}
               >
                 Fixtures
               </Link>
               <Link
-                href={"/team"}
-                className="cursor-pointer hover:text-[#fab505]"
+                href={"/our-team"}
+                className="text-2xl font-medium text-white hover:text-[#fab505] transition-colors w-full text-center py-2"
                 onClick={() => setIsOpen(false)}
               >
                 Team
               </Link>
               <Link
                 href={"/gallery"}
-                className="cursor-pointer hover:text-[#fab505]"
+                className="text-2xl font-medium text-white hover:text-[#fab505] transition-colors w-full text-center py-2"
                 onClick={() => setIsOpen(false)}
               >
                 Gallery
               </Link>
               <Link
                 href={"/blog"}
-                className="cursor-pointer hover:text-[#fab505]"
+                className="text-2xl font-medium text-white hover:text-[#fab505] transition-colors w-full text-center py-2"
                 onClick={() => setIsOpen(false)}
               >
                 Blogs
               </Link>
               <Link
                 href={"/contact"}
-                className="cursor-pointer hover:text-[#fab505]"
+                className="text-2xl font-medium text-white hover:text-[#fab505] transition-colors w-full text-center py-2"
                 onClick={() => setIsOpen(false)}
               >
                 Contact us
               </Link>
             </div>
-            <button
-              className="absolute top-4 right-4 text-2xl text-white"
-              onClick={() => setIsOpen(false)}
-            >
-              <HiOutlineX />
-            </button>
           </div>
         </div>
       </nav>
