@@ -3,7 +3,7 @@
 
 export default function Location() {
   return (
-    <section className="w-full px-4 md:px-6 py-12 flex justify-center">
+    <section className="w-full px-4 md:px-6 py-12 flex justify-center mb-8">
       <div className="w-full max-w-6xl flex flex-col md:flex-row justify-between items-start gap-8">
 
         {/* LEFT: Contact Form Card */}
@@ -15,11 +15,11 @@ export default function Location() {
           }}
         >
           {/* Overlay */}
-          <div className="absolute inset-0 bg-blue-900/85 bg-opacity-60 z-0 rounded-xl" />
+          <div className="absolute inset-0 bg-blue-900/85 opacity-60 z-0 rounded-xl" />
 
           {/* Form Content */}
           <form className="relative z-10 p-8 space-y-5 text-white font-[para-1]">
-            <h2 className="text-4xl font-extrabold mb-4 text-center font-[heading-1]">Send Us Message</h2>
+            <h2 className="text-4xl mb-4 text-center font-[heading-1]">Send Us Message</h2>
 
             <div>
               <label className="block mb-1">Name :</label>

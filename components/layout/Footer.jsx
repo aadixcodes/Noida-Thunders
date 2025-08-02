@@ -73,7 +73,7 @@ export default function Footer() {
               <li><Link href="/our-team" className="hover:text-yellow-500">Our Squad</Link></li>
               <li><Link href="/gallery" className="hover:text-yellow-500">Gallery</Link></li>
               <li><Link href="/blogs" className="hover:text-yellow-500">Blogs</Link></li>
-              <li><Link href="/contact" className="hover:text-yellow-500">Contact Us</Link></li>
+              <li><Link href="/contact-us" className="hover:text-yellow-500">Contact Us</Link></li>
             </ul>
           </div>
 
@@ -141,7 +141,7 @@ export default function Footer() {
                 <li><Link href="/squad" className="hover:text-yellow-500">Our Squad</Link></li>
                 <li><Link href="/gallery" className="hover:text-yellow-500">Gallery</Link></li>
                 <li><Link href="/blogs" className="hover:text-yellow-500">Blogs</Link></li>
-                <li><Link href="/contact" className="hover:text-yellow-500">Contact Us</Link></li>
+                <li><Link href="/contact-us" className="hover:text-yellow-500">Contact Us</Link></li>
               </ul>
             </div>
 

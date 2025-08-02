@@ -23,8 +23,6 @@ const page = () => {
         backgroundImage: "url('/assets/bg-banner-2.png')", // your uploaded background
       }}
     >
-      {/* White overlay */}
-      {/* <div className="absolute inset-0 bg-white/85 bg-opacity-90 z-0" /> */}
 
       <div className="relative z-10 max-w-7xl mx-auto px-4">
 
@@ -35,7 +33,7 @@ const page = () => {
               key={index}
               src={src}
               alt={`Gallery image ${index + 1}`}
-              className="w-full rounded-lg mb-4 break-inside-avoid shadow-md border-2 border-[#001d3d] hover:scale-[1.01] transition-transform duration-300"
+              className="w-full rounded-lg mb-4 break-inside-avoid shadow-md border-6 border-[#0b2142] hover:scale-[1.01] transition-transform duration-300"
             />
           ))}
         </div>

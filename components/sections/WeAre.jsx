@@ -20,7 +20,7 @@ const WeAre = () => {
           {/* Image Content */}
           <div className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] rounded-xl overflow-hidden">
             <Image
-              src="/assets/Noida.png"
+              src="/assets/noida.png"
               alt="Noida Thunders Team"
               fill
               className="object-cover object-center"

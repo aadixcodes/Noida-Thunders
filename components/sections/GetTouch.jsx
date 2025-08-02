@@ -27,8 +27,8 @@ const GetTouch = () => {
   ]
 
   return (
-    <section className="text-center px-4 py-16 bg-white">
-      <h1 className="text-4xl font-bold mb-4 font-[heading-1] text-black">Get In Touch !</h1>
+    <section className="text-center px-4 pt-16 bg-white">
+      <h1 className="text-4xl md:text-5xl  font-[heading-1] text-black">Get In Touch !</h1>
       <p className="text-lg max-w-3xl mx-auto text-gray-700 mb-12 font-[para-1]">
         Got a thunderous idea or want to connect with Noida Thunders? Whether you're a fan, a brand, or a collaborator — we’re just a message away. Let’s make something big happen!
       </p>

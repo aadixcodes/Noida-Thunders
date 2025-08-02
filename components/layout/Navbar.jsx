@@ -109,13 +109,13 @@ const Navbar = () => {
                 Gallery
               </Link>
               <Link
-                href={"/blog"}
+                href={"/blogs"}
                 className="cursor-pointer hover:text-[#fab505]"
               >
                 Blogs
               </Link>
               <Link
-                href={"/contact"}
+                href={"/contact-us"}
                 className="cursor-pointer hover:text-[#fab505]"
               >
                 Contact us
@@ -189,14 +189,14 @@ const Navbar = () => {
                 Gallery
               </Link>
               <Link
-                href={"/blog"}
+                href={"/blogs"}
                 className="text-2xl font-medium text-white hover:text-[#fab505] transition-colors w-full text-center py-2"
                 onClick={() => setIsOpen(false)}
               >
                 Blogs
               </Link>
               <Link
-                href={"/contact"}
+                href={"/contact-us"}
                 className="text-2xl font-medium text-white hover:text-[#fab505] transition-colors w-full text-center py-2"
                 onClick={() => setIsOpen(false)}
               >
