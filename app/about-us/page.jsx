@@ -74,7 +74,7 @@ const page = () => {
             <div className="text-center mb-8">
               <div className="relative inline-block">
                 <img
-                  src="/assets/IconPlayer.jpg"
+                  src="/assets/naveenrathi.webp"
                   alt="Mr. Naveen Raathi"
                   className="w-48 h-60 object-cover mx-auto rounded-sm border border-gray-200"
                 />
@@ -137,15 +137,15 @@ const page = () => {
             <div className="flex-shrink-0 text-center">
               <div className="relative">
                 <img
-                  src="/assets/IconPlayer.jpg"
+                  src="/assets/naveenrathi.webp"
                   alt="Mr. Naveen Raathi"
                   className="w-64 h-80 object-cover rounded-sm border border-gray-200 shadow-sm"
                 />
                 {/* Name overlay on image */}
-                <div className="absolute bottom-0 left-0 right-0 bg-black/85 text-white py-3 px-4">
+                {/* <div className="absolute bottom-0 left-0 right-0 bg-black/85 text-white py-3 px-4">
                   <h3 className="text-xl font-bold mb-1">Mr. Naveen Raathi</h3>
                   <p className="text-sm">Owner - Noida Thunders</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

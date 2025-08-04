@@ -12,16 +12,26 @@ export default function OurTeam() {
   const [isLoading, setIsLoading] = useState(true);
 
   const staffData = [
+    // {
+    //   image: '/assets/IconPlayer.jpg',
+    //   name: 'Amrit Pal Singh',
+    //   title: 'Head Coach'
+    // },
     {
-      image: '/assets/IconPlayer.jpg',
-      name: 'Amrit Pal Singh',
-      title: 'Head Coach'
+      title: "Head Coach",
+      name: "Karan Chaudhary",
+      image: "/assets/karan.webp",
     },
     {
-      image: '/assets/IconPlayer.jpg',
-      name: 'Vijay Tomar',
-      title: 'Assistant Coach'
-    }
+      title: "Asst. Coach",
+      name: "Rahul Beniwal",
+      image: "/assets/rahul.webp",
+    },
+    {
+      title: "Team Manager",
+      name: "Vikash Chaubey",
+      image: "/assets/vikashchoubey.webp",
+    },
   ];
 
   useEffect(() => {
@@ -34,9 +44,21 @@ export default function OurTeam() {
 
   return (
     <div className="min-h-screen bg-white/0">
-      {/* Page Banner - Unchanged */}
-
-      <DivImg text={'Our Team'}/>
+      {/* Page Banner */}
+      <div className="relative h-[20vh] md:h-[30vh] w-full whatUs flex items-center justify-center">
+        <Image
+          src="/assets/team-page-banner.png"
+          alt="Our Team Banner"
+          fill
+          className="object-cover object-center"
+          priority
+        />
+        <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-[heading-1] text-center">
+            Our Team
+          </h2>
+        </div>
+      </div>
 
       {/* Team Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 md:pt-12">
