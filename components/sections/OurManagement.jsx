@@ -39,7 +39,7 @@ const OurManagement = () => {
                 )}
 
                 {/* Dark blue overlay bar at bottom of image */}
-                <div className="w-full px-3 py-2 absolute bottom-0 flex justify-center items-center">
+                {/* <div className="w-full px-3 py-2 absolute bottom-0 flex justify-center items-center">
                   <div className="w-[95%] py-2 md:py-4 bg-[#1e3a5f]">
                     <h4 className="text-white text-sm md:text-lg tracking-wide font-[heading-1]">
                       {member.role || "Role"}
@@ -48,7 +48,7 @@ const OurManagement = () => {
                       {member.name || "Name Here"}
                     </p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}

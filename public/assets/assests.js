@@ -128,23 +128,23 @@ export const OurMission = [
 export const teamMembers = [
   {
     role: "Owner",
-    name: "Name Here",
-    image: "/assets/Profile.webp",
+    name: "Naveen Rathi",
+    image: "/assets/naveenrathi.webp",
   },
   {
     role: "Head Coach",
-    name: "Name Here",
-    image: "/assets/Profile.webp",
+    name: "Karan Chaudhary",
+    image: "/assets/karan.webp",
   },
   {
     role: "Asst. Coach",
-    name: "Name Here",
-    image: "/assets/Profile.webp",
+    name: "Rahul Beniwal",
+    image: "/assets/rahul.webp",
   },
   {
     role: "Team Manager",
-    name: "Name Here",
-    image: "/assets/Profile.webp",
+    name: "Vikash Chaubey",
+    image: "/assets/vikashchoubey.webp",
   },
 ];
 

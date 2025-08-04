@@ -5,7 +5,7 @@ export const blogPosts = [
       title: "The Thunder Fan Code: 7 Signs You're a Real Noida Thunders Fan",
       description: "Think you're just watching volleyball? Think again. Here's the ultimate Thunder Fan Code - 7 unmistakable signs you're ThunderFam for life.",
       date: "August 1, 2025",
-      image: "/assets/bg-banner-1.png",
+      image: "/assets/blog1.jpg",
       author: "Noida Thunders Media",
       readTime: "5 min read",
       content: [
@@ -112,7 +112,7 @@ export const blogPosts = [
       title: "The Making of Noida Thunders: Naveen Rathi's Vision for Volleyball in UP",
       description: "How entrepreneur Naveen Rathi is transforming volleyball in Uttar Pradesh through Noida Thunders.",
       date: "August 1, 2025",
-      image: "/assets/bg-banner-1.png",
+      image: "/assets/blog2.jpg",
       author: "Sports Journalist",
       readTime: "6 min read",
       content: [
@@ -219,7 +219,7 @@ export const blogPosts = [
       title: "Meet the Squad That Will Shake the Courts: Presenting Your Noida Thunders!",
       description: "Get to know the powerful Noida Thunders team that's ready to dominate the UPPVL season.",
       date: "August 1, 2025",
-      image: "/assets/bg-banner-1.png",
+      image: "/assets/blog3.jpg",
       author: "Sports Analyst",
       readTime: "7 min read",
       content: [
@@ -398,7 +398,7 @@ export const blogPosts = [
       title: "From Courtside to Global Stage: The Rise of Volleyball in India",
       description: "How volleyball is transforming from a grassroots sport to a professional spectacle in India.",
       date: "August 1, 2025",
-      image: "/assets/bg-banner-1.png",
+      image: "/assets/blog4.jpg",
       author: "Sports Historian",
       readTime: "8 min read",
       content: [

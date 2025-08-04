@@ -9,22 +9,22 @@ export default function Footer() {
     {
       id: 1,
       icon: <FaFacebookF />,
-      url: "https://facebook.com/yourpage", // Replace with your actual Facebook URL
+      url: "https://www.facebook.com/profile.php?id=61575067900117 ", // Replace with your actual Facebook URL
     },
     {
       id: 2,
       icon: <FaInstagram />,
-      url: "https://instagram.com/yourpage", // Replace with your actual Instagram URL
+      url: "https://www.instagram.com/noidathunders/ ", // Replace with your actual Instagram URL
     },
     {
       id: 3,
       icon: <FaTwitter />,
-      url: "https://twitter.com/yourpage", // Replace with your actual Twitter URL
+      url: "https://x.com/Noida_thunders", // Replace with your actual Twitter URL
     },
     {
       id: 4,
       icon: <FaYoutube />,
-      url: "https://youtube.com/yourchannel", // Replace with your actual YouTube URL
+      url: "https://www.youtube.com/channel/UCeTEz7LUtYtdCRmPq9KCnMw", // Replace with your actual YouTube URL
     }
   ];
 
@@ -86,8 +86,7 @@ export default function Footer() {
                   <IoLocationOutline className="text-xl" />
                   <strong className="text-lg font-extralight">Address :</strong>
                 </div>
-                demo address - VSS01 Mamarama <br />
-                Road Main City, Western
+                Noida UP
               </li>
               <li className="text-start">
                 <div className="flex gap-3 items-center justify-start">
@@ -101,7 +100,7 @@ export default function Footer() {
                   <MdOutlineEmail className="text-xl font-extralight" />
                   <strong className="text-lg font-extralight">Email:</strong>
                 </div>
-                <a href="mailto:noidathunders@gmail.com" className="hover:text-yellow-500">noidathunders@gmail.com</a>
+                <a href="mailto:marketing@noidathunders.com" className="hover:text-yellow-500">marketing@noidathunders.com </a>
               </li>
             </ul>
           </div>
@@ -155,8 +154,7 @@ export default function Footer() {
                     <span>Address:</span>
                   </div>
                   <div className="mt-1">
-                    VSS01 Mamarama<br />
-                    Road Main City, Western
+                  Noida UP
                   </div>
                 </li>
                 <li>
@@ -164,7 +162,7 @@ export default function Footer() {
                     <IoCallOutline />
                     <span>Phone:</span>
                   </div>
-                  <div className="mt-1">+91-9123456789</div>
+                  <div className="mt-1">+91-9812595958</div>
                 </li>
                 <li>
                   <div className="flex items-center justify-center sm:justify-start gap-2 mt-2">
@@ -172,7 +170,7 @@ export default function Footer() {
                     <span>Email:</span>
                   </div>
                   <div className="mt-1">
-                    <a href="mailto:noidathunders@gmail.com" className="hover:text-yellow-500">noidathunders@gmail.com</a>
+                    <a href="mailto:marketing@noidathunders.com " className="hover:text-yellow-500">marketing@noidathunders.com </a>
                   </div>
                 </li>
               </ul>

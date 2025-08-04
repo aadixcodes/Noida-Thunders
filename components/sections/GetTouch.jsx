@@ -8,7 +8,7 @@ const GetTouch = () => {
     {
       label: 'Email',
       icon: <AiOutlineMail />,
-      content: 'noidathunders@gmail.com',
+      content: 'marketing@noidathunders.com ',
     },
     {
       label: 'Phone',
@@ -20,7 +20,7 @@ const GetTouch = () => {
       icon: <CiLocationOn/>,
       content: (
         <>
-          demo address #8901 Marmora Road
+          Noida UP
         </>
       ),
     },
