@@ -15,7 +15,7 @@ const OurManagement = () => {
         {/* Description Text */}
         <p className="text-gray-600 max-w-4xl mx-auto mb-12 text-sm sm:text-base leading-relaxed">
           The backbone of Noida Thunders — a team of dedicated professionals
-          leading the charge with vision, strategy, and unwavering commitment to
+          leading the charge with vision, strategy and unwavering commitment to
           excellence.
         </p>
 

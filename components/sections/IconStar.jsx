@@ -39,12 +39,11 @@ const Iconstar = () => {
           <div className="space-y-6">
             <p className="text-base sm:text-[1.05rem] md:text-lg lg:text-[1.1rem] text-black leading-relaxed font-[Para-1]">
               Vipul Kumar isn't just a player - he's the icon of Noida Thunders. As one of India's top Volleball
-              setters, his precision , quick thinking , and clutch assists have made him the heartbeat of every
-              team he's led. From Best Setter at the UP State Championship (2019) to MVP a the UPPVL Trials Games.
-              Ranked among the top 3 in assists at the senior Nationals (2021) , Vipul's track record is built on
-              impact. Ranked among the top 3 in assists at the senior Nationals (2021) and owning the Best serve Accuracy 
-              in the Zonal League (2023), he enters this season as the game - changer Noida counts on - calm ,
-              calculated , and ready to command the court.
+              setters, his precision, quick thinking, and clutch assists have made him the heartbeat of every
+              team he's led. From Best Setter at the UP State Championship (2019) to MVP at the UPPVL Trials Games.
+              Ranked among the top 3 in assists at the senior Nationals (2021) and owning the Best Serve Accuracy 
+              in the Zonal League (2023), he enters this season as the game - changer Noida counts on - calm,
+              calculated, and ready to command the court.
             </p>
 
             <div className="flex justify-center lg:justify-start">

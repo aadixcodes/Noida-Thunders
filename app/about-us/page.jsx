@@ -40,8 +40,7 @@ const page = () => {
           </h2>
           <div className="h-1 w-24 bg-[#fab505] mx-auto"></div>
           <p className="text-white text-sm sm:text-base md:text-lg font-[Para-1] max-w-2xl mx-auto">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse quam 
-            illum quo dolore, minus alias labore nihil ipsa.
+          Every spike, block, and serve by Noida Thunders carries the city’s heartbeat — fast, fierce, and focused.
           </p>
         </div>
       </div>
@@ -104,7 +103,7 @@ const page = () => {
               </p>
               <div className="text-center italic text-gray-800 bg-gray-50 p-4 rounded border-l-4 border-[#fab505]">
                 "Join us in this electrifying journey. Let's rally together, rise stronger, and make sure that when we
-                thunder — the entire nation hears it."
+                thunder, the entire nation hears it."
               </div>
             </div>
           </div>

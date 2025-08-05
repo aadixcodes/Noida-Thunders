@@ -83,25 +83,25 @@ import { MdGroups2 } from "react-icons/md";
 export const WhatMakes = [
     {
         id: 1,
-        text: 'A dynamic squad of top-tier handpicked to complete at the highest level.',
+        text: 'A dynamic squad of top-tier talent handpicked to compete at the highest level.',
         icons: <RiTeamFill />,
     },
 
     {
         id: 1,
-        text: 'A dynamic squad of top-tier handpicked to complete at the highest level.',
+        text: "A game style that's aggresive, fast and electrifying.",
         icons: <MdOutlineSportsKabaddi />,
     },
 
     {
         id: 1,
-        text: 'A dynamic squad of top-tier handpicked to complete at the highest level.',
+        text: 'A mission to inspire every young athlete watching from the stands or screens.',
         icons: <GiFlyingFlag />,
     },
 
     {
         id: 1,
-        text: 'A dynamic squad of top-tier handpicked to complete at the highest level.',
+        text: "A deep connection with Noida's corporate, urban and sporting communities.",
         icons: <MdGroups2 />,
     }
 ]
@@ -113,14 +113,14 @@ export const OurMission = [
         id: 1,
         icons: <GiStairsGoal />,
         heading: 'Mission',
-        message: 'To elevate Volleyball as a premium sporting culture in Noida , inspire local talent , and unite the NCR through high-octane sportsmanship.'
+        message: 'To elevate Volleyball as a premium sporting culture in Noida, inspire local talent, and unite the NCR through high-octane sportsmanship.'
     },
 
     {
         id: 2,
         icons: <GiArrowScope />,
         heading: 'Vision',
-        message: 'To establish Noida Thunders as the most celebrated sports franchise of North India, knows for excellence , innovation , and community connection.'
+        message: 'To establish Noida Thunders as the most celebrated sports franchise of North India, known for excellence, innovation, and community connection.'
     },
 ]
 

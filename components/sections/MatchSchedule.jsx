@@ -104,7 +104,7 @@ const MatchSchedule = () => {
                         alt={match.team1} 
                         width={100} 
                         height={100} 
-                        className="mx-auto"
+                        className="mx-auto w-16 h-16 md:w-24 md:h-24 lg:w-32 lg:h-32"
                       />
                       <p className="mt-2 font-semibold">{match.team1}</p>
                     </div>
@@ -115,7 +115,7 @@ const MatchSchedule = () => {
                         alt={match.team2} 
                         width={100} 
                         height={100} 
-                        className="mx-auto"
+                        className="mx-auto w-16 h-16 md:w-24 md:h-24 lg:w-32 lg:h-32"
                       />
                       <p className="mt-2 font-semibold">{match.team2}</p>
                     </div>

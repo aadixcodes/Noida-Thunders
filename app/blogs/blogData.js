@@ -118,7 +118,7 @@ export const blogPosts = [
       content: [
         {
           type: "paragraph",
-          text: "'It's not just a sport—it's a movement.' These words from entrepreneur Naveen Rathi, the founder of Noida Thunders, echo loudly across Uttar Pradesh's evolving sporting landscape. In a region where cricket often dominates conversations, Rathi is leading a powerful, purposeful mission: to make volleyball not just popular, but transformational. And Noida Thunders isn't just a franchise—it's a symbol of that ambition."
+          text: "It's not just a sport — it's a movement. These words from entrepreneur Naveen Rathi, the founder of Noida Thunders, echo loudly across Uttar Pradesh's evolving sporting landscape. In a region where cricket often dominates conversations, Rathi is leading a powerful, purposeful mission: to make volleyball not just popular, but transformational. And Noida Thunders isn't just a franchise—it's a symbol of that ambition."
         },
         {
           type: "heading",
@@ -147,11 +147,11 @@ export const blogPosts = [
         },
         {
           type: "paragraph",
-          text: "The Noida Thunders team has already featured players like Harsh Nagar from Achheja (Greater Noida) and Bobby Yadav from Gorakhpur, showing a clear commitment to shining a spotlight on homegrown talent. Rathi's goal is to build structured pipelines—from trials in smaller districts to development camps—so that promising players are no longer left behind."
+          text: "The Noida Thunders team has already featured players like Harsh Nagar from Achheja (Greater Noida) and Bobby Yadav from Gorakhpur, showing a clear commitment to shining a spotlight on homegrown talent. Rathi's goal is to build structured pipelines — from trials in smaller districts to development camps—so that promising players are no longer left behind."
         },
         {
           type: "paragraph",
-          text: "This initiative isn't about tokenism—it's about representation. About making sure when Noida Thunders takes the court, it brings all of Uttar Pradesh with it."
+          text: "This initiative isn't about tokenism — it's about representation: ensuring that when Noida Thunders takes the court, it brings all of Uttar Pradesh with it."
         },
         {
           type: "heading",

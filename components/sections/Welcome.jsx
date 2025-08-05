@@ -23,12 +23,13 @@ const Welcome = () => {
           <div className="space-y-6 sm:space-y-7 md:space-y-8 text-[#1c0f0d] text-base sm:text-[1.05rem] md:text-lg lg:text-[1.1rem] font-[Para-1] leading-relaxed sm:leading-relaxed">
             <p>
               Welcome to the world of Noida Thunders — where every serve is electric and every match is a statement.
-              Born from the spirit of one of India's fastest-growing cities, Noida Thunders represents more than just volleyball.
+              Born from the spirit of one of India’s fastest-growing cities,
+              Noida Thunders represent more than just volleyball.
               We embody ambition, energy, and the pulse of a young, tech-driven generation ready to roar on and off the court.
             </p>
 
             <p>
-              With a lineup of fearless athletes, strategic minds, and unstoppable grit, Noida Thunders is here to storm the Uttar
+              With a lineup of fearless athletes, strategic minds, and unstoppable grit, Noida Thunders are here to storm the Uttar
               Pradesh Pro Volleyball League with unmatched intensity and pride.
             </p>
 
