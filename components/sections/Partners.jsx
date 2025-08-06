@@ -14,12 +14,12 @@ const Partner = () => {
       type: "Official Broadcasting Partner",
     },
     {
-      name: "SVR - Your Move, Our Expertise",
+      name: "SVR",
       logo: "/assets/svRe-logo.jpg",
       type: "Principal Sponsor",
     },
     {
-      name: 'Vite',
+      name: 'Veeta',
       logo: "/assets/Veeta-logo.jpg",
       type: "Powered By",
     }
@@ -41,7 +41,7 @@ const Partner = () => {
               key={index} 
               className="flex flex-col items-center justify-center p-2 flex-shrink-0"
             >
-              {/* Caption above the image */}
+             
               <p className="mb-2 text-center text-[#1c0f0d] font-[para-1] italic text-lg">
                 {sponsor.type}
               </p>
