@@ -21,17 +21,17 @@ const Iconstar = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
             {/* Image Content */}
-            <div className="relative h-full min-h-[400px] lg:min-h-[300px] overflow-hidden shadow-xl rounded-lg">
-                <div className="absolute inset-0 bg-gray-200 animate-pulse"></div>
-                <Image
-                    src={assets.starplayer}
-                    alt="Ayodhya Super Kings Team"
-                    fill
-                    className="object-cover object-center"
-                    loading="lazy"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent"></div>
-          </div>
+            <div className="relative h-full min-h-[400px] lg:min-h-[350px] overflow-hidden shadow-xl rounded-lg">
+        <div className="absolute inset-0 bg-gray-200 animate-pulse"></div>
+        <Image
+            src={assets.starplayer}
+            alt="Ayodhya Super Kings Team"
+            fill
+            className="object-cover object-[center_40%]" // -----shift down
+            loading="lazy"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent"></div>
+    </div>
 
 
 

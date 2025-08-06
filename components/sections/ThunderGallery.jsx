@@ -21,9 +21,9 @@ const ThunderGallery = () => {
 
         {/* Gallery Boxes - Desktop & Tablet */}
         <div className="hidden sm:grid grid-cols-2 md:grid-cols-3 gap-24 z-10">
-          <div className="box h-48 sm:h-56 w-56 rounded-2xl abc transition-transform duration-300 hover:scale-110"></div>
-          <div className="box h-48 sm:h-56 w-56 rounded-2xl abcd transition-transform duration-300 hover:scale-110"></div>
-          <div className="box h-48 sm:h-56 w-56 rounded-2xl abcde transition-transform duration-300 hover:scale-110"></div>
+          <div className="box h-48 sm:h-56 w-56 rounded-lg abc transition-transform duration-300 hover:scale-110"></div>
+          <div className="box h-48 sm:h-56 w-56 rounded-lg abcd transition-transform duration-300 hover:scale-110"></div>
+          <div className="box h-48 sm:h-56 w-56 rounded-lg abcde transition-transform duration-300 hover:scale-110"></div>
         </div>
 
         {/* Gallery Boxes - Mobile Layout */}
